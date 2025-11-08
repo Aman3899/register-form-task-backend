@@ -9,24 +9,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Live Deployment](#live-deployment)
-- [Architecture](#architecture)
-- [API Documentation](#api-documentation)
-- [Data Storage](#data-storage)
-- [Local Development](#local-development)
-- [Deployment Guide](#deployment-guide)
-- [Frontend Integration](#frontend-integration)
-- [Configuration](#configuration)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Security Considerations](#security-considerations)
-- [Contributing](#contributing)
-
----
-
 ## 🎯 Overview
 
 This backend service provides a simple yet robust API endpoint for collecting form submissions from frontend applications. It leverages Flask for the web framework and Pandas for efficient CSV data management.
@@ -97,6 +79,8 @@ curl -X POST https://amanullah1.pythonanywhere.com/submit \
       └────── JSON Response ───┴─ Append to CSV ──────┘
 ```
 
+<img src="https://github.com/Aman3899/register-form-task-backend/blob/main/Architecture%20of%20whole%20backend.png?raw=true" alt="LeetCode Stats">
+
 ### Component Breakdown
 
 ```
@@ -114,7 +98,7 @@ project-root/
 
 A visual representation of the system architecture is available in this repository:
 
-📊 **[View Mind Map](./Architecture of whole backend.png)**
+📊 **[View Mind Map](./)**
 
 The mind map illustrates:
 - Data flow from frontend to backend
@@ -1050,5 +1034,6 @@ If you encounter issues not covered here:
      - Error message
      - Steps to reproduce
      - Relevant log snippets
+
 
 ---
